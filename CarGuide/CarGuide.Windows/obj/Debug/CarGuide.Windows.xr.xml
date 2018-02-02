@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots >
+  <Roots.RootTypes>
+    <RootType FullName="Windows.UI.Xaml.Application" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Page">
+      <RootProperty Name="Background" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="Background" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="HorizontalAlignment" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
+      <RootProperty Name="ImageSource" />
+      <RootProperty Name="Stretch" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="TextAlignment" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Items" />
+      <RootEvent Name="SelectionChanged" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Background" />
+      <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ComboBoxItem">
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="CarGuide.MainPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Source" />
+      <RootProperty Name="Stretch" />
+    </RootType>
+    <RootType FullName="CarGuide.Assets.wcars.Soul" />
+    <RootType FullName="CarGuide.Assets.wcars.w116i" />
+    <RootType FullName="CarGuide.Assets.wcars.w328i" />
+    <RootType FullName="CarGuide.Assets.wcars.w520i" />
+    <RootType FullName="CarGuide.Assets.wcars.w740" />
+    <RootType FullName="CarGuide.Assets.wcars.waccent" />
+    <RootType FullName="CarGuide.Assets.wcars.wadam" />
+    <RootType FullName="CarGuide.Assets.wcars.wastra" />
+    <RootType FullName="CarGuide.Assets.wcars.wastragtc" />
+    <RootType FullName="CarGuide.Assets.wcars.wavanza" />
+    <RootType FullName="CarGuide.Assets.wcars.wcc" />
+    <RootType FullName="CarGuide.Assets.wcars.wcerato" />
+    <RootType FullName="CarGuide.Assets.wcars.wcorolla" />
+    <RootType FullName="CarGuide.Assets.wcars.wcorsa" />
+    <RootType FullName="CarGuide.Assets.wcars.welantra" />
+    <RootType FullName="CarGuide.Assets.wcars.wfortuner" />
+    <RootType FullName="CarGuide.Assets.wcars.wgolf" />
+    <RootType FullName="CarGuide.Assets.wcars.wgrandi10" />
+    <RootType FullName="CarGuide.Assets.wcars.wi10" />
+    <RootType FullName="CarGuide.Assets.wcars.wi30" />
+    <RootType FullName="CarGuide.Assets.wcars.winsignia" />
+    <RootType FullName="CarGuide.Assets.wcars.wix35" />
+    <RootType FullName="CarGuide.Assets.wcars.wjetta" />
+    <RootType FullName="CarGuide.Assets.wcars.wjuke" />
+    <RootType FullName="CarGuide.Assets.wcars.wlandcruiser" />
+    <RootType FullName="CarGuide.Assets.wcars.wmeriva" />
+    <RootType FullName="CarGuide.Assets.wcars.woris" />
+    <RootType FullName="CarGuide.Assets.wcars.wpassat" />
+    <RootType FullName="CarGuide.Assets.wcars.wpathfinder" />
+    <RootType FullName="CarGuide.Assets.wcars.wpicanto" />
+    <RootType FullName="CarGuide.Assets.wcars.wpolo" />
+    <RootType FullName="CarGuide.Assets.wcars.wqashqai" />
+    <RootType FullName="CarGuide.Assets.wcars.wrio" />
+    <RootType FullName="CarGuide.Assets.wcars.wsentra" />
+    <RootType FullName="CarGuide.Assets.wcars.wsorento" />
+    <RootType FullName="CarGuide.Assets.wcars.wsportage" />
+    <RootType FullName="CarGuide.Assets.wcars.wsunny" />
+    <RootType FullName="CarGuide.Assets.wcars.wtiguan" />
+    <RootType FullName="CarGuide.Assets.wcars.wtiida" />
+    <RootType FullName="CarGuide.Assets.wcars.wx1" />
+    <RootType FullName="CarGuide.Assets.wcars.wx3" />
+    <RootType FullName="CarGuide.Assets.wcars.wyaris" />
+  </Roots.RootTypes>
+</Roots>

@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{245D6A76-C134-4FFB-BB11-919879782C01}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CarGuide</RootNamespace>
+    <AssemblyName>CarGuide.WindowsPhone</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+    <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{76F1466A-8B6D-4E39-A767-685A06062A39};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SynthesizeLinkMetadata>true</SynthesizeLinkMetadata>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Cardescription\328i.xaml.cs">
+      <DependentUpon>328i.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\520i.xaml.cs">
+      <DependentUpon>520i.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\740.xaml.cs">
+      <DependentUpon>740.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\accent.xaml.cs">
+      <DependentUpon>accent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\Adam.xaml.cs">
+      <DependentUpon>Adam.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\astra.xaml.cs">
+      <DependentUpon>astra.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\astragtc.xaml.cs">
+      <DependentUpon>astragtc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\avanza.xaml.cs">
+      <DependentUpon>avanza.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\BMW.116i.xaml.cs">
+      <DependentUpon>BMW.116i.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\cc.xaml.cs">
+      <DependentUpon>cc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\cerato.xaml.cs">
+      <DependentUpon>cerato.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\corolla.xaml.cs">
+      <DependentUpon>corolla.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\corsa.xaml.cs">
+      <DependentUpon>corsa.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\elantra.xaml.cs">
+      <DependentUpon>elantra.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\fortuner.xaml.cs">
+      <DependentUpon>fortuner.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\golf.xaml.cs">
+      <DependentUpon>golf.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\grandi10.xaml.cs">
+      <DependentUpon>grandi10.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\i10.xaml.cs">
+      <DependentUpon>i10.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\i30.xaml.cs">
+      <DependentUpon>i30.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\insignia.xaml.cs">
+      <DependentUpon>insignia.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\ix35.xaml.cs">
+      <DependentUpon>ix35.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\jetta.xaml.cs">
+      <DependentUpon>jetta.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\juke.xaml.cs">
+      <DependentUpon>juke.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\landcruiser.xaml.cs">
+      <DependentUpon>landcruiser.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\meriva.xaml.cs">
+      <DependentUpon>meriva.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\oris.xaml.cs">
+      <DependentUpon>oris.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\passat.xaml.cs">
+      <DependentUpon>passat.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\pathfinder.xaml.cs">
+      <DependentUpon>pathfinder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\picanto.xaml.cs">
+      <DependentUpon>picanto.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\polo.xaml.cs">
+      <DependentUpon>polo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\qashqai.xaml.cs">
+      <DependentUpon>qashqai.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\rio.xaml.cs">
+      <DependentUpon>rio.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\sentra.xaml.cs">
+      <DependentUpon>sentra.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\sorento.xaml.cs">
+      <DependentUpon>sorento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\Soul.xaml.cs">
+      <DependentUpon>Soul.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\sportage.xaml.cs">
+      <DependentUpon>sportage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\sunny.xaml.cs">
+      <DependentUpon>sunny.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\tiguan.xaml.cs">
+      <DependentUpon>tiguan.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\tiida.xaml.cs">
+      <DependentUpon>tiida.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\x1.xaml.cs">
+      <DependentUpon>x1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\x3.xaml.cs">
+      <DependentUpon>x3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\Cardescription\yaris.xaml.cs">
+      <DependentUpon>yaris.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cars.cs" />
+    <Compile Include="Common\NavigationHelper.cs" />
+    <Compile Include="Common\ObservableDictionary.cs" />
+    <Compile Include="Common\RelayCommand.cs" />
+    <Compile Include="Common\SuspensionManager.cs" />
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\logo.png" />
+    <Content Include="Assets\SplashScreen.scale-240.png" />
+    <Content Include="Assets\backgr.jpg" />
+    <Content Include="Assets\BMW.116i.jpg" />
+    <Content Include="Assets\car.jpg" />
+    <Content Include="Assets\cardescription.jpg" />
+    <Content Include="Assets\carformback.jpg" />
+    <Content Include="Assets\carpic\BMW.116i.jpg" />
+    <Content Include="Assets\carpic\BMW.328i.jpg" />
+    <Content Include="Assets\carpic\BMW.520i.jpg" />
+    <Content Include="Assets\carpic\BMW.720.jpg" />
+    <Content Include="Assets\carpic\BMW.x1.jpg" />
+    <Content Include="Assets\carpic\BMW.x3.jpg" />
+    <Content Include="Assets\carpic\ccvolex.jpg" />
+    <Content Include="Assets\carpic\hyndai.accent.jpg" />
+    <Content Include="Assets\carpic\hyndai.elantra.jpg" />
+    <Content Include="Assets\carpic\hyndai.grandi10.jpg" />
+    <Content Include="Assets\carpic\hyndai.i10.jpg" />
+    <Content Include="Assets\carpic\hyndai.i30.jpg" />
+    <Content Include="Assets\carpic\hyndai.ix35.jpg" />
+    <Content Include="Assets\carpic\kia.cerato.jpg" />
+    <Content Include="Assets\carpic\kia.picanto.jpg" />
+    <Content Include="Assets\carpic\kia.rio.jpg" />
+    <Content Include="Assets\carpic\kia.sorento.jpg" />
+    <Content Include="Assets\carpic\kia.soul.jpg" />
+    <Content Include="Assets\carpic\kia.sportage.jpg" />
+    <Content Include="Assets\carpic\nissan.juke.jpg" />
+    <Content Include="Assets\carpic\nissan.pathfinder.jpg" />
+    <Content Include="Assets\carpic\nissan.qashqai.jpg" />
+    <Content Include="Assets\carpic\nissan.sentra.jpg" />
+    <Content Include="Assets\carpic\nissan.sunny.jpg" />
+    <Content Include="Assets\carpic\nissan.tiida.jpg" />
+    <Content Include="Assets\carpic\opel.adam.jpg" />
+    <Content Include="Assets\carpic\opel.astra.jpg" />
+    <Content Include="Assets\carpic\opel.astragtc.jpg" />
+    <Content Include="Assets\carpic\opel.insignia.jpg" />
+    <Content Include="Assets\carpic\opel.meriva.jpg" />
+    <Content Include="Assets\carpic\opelcorsa.jpg" />
+    <Content Include="Assets\carpic\toyota.avanza.jpg" />
+    <Content Include="Assets\carpic\toyota.corlla.jpg" />
+    <Content Include="Assets\carpic\toyota.fortuner.jpg" />
+    <Content Include="Assets\carpic\toyota.landcruiser.jpg" />
+    <Content Include="Assets\carpic\toyota.oris.jpg" />
+    <Content Include="Assets\carpic\toyota.yaris.jpg" />
+    <Content Include="Assets\carpic\volex.golf.jpg" />
+    <Content Include="Assets\carpic\volex.jetta.jpg" />
+    <Content Include="Assets\carpic\volex.passat.jpg" />
+    <Content Include="Assets\carpic\volex.polo.jpg" />
+    <Content Include="Assets\carpic\volex.tiguan.jpg" />
+    <Content Include="Assets\guide.jpg" />
+    <Content Include="Assets\Logo.scale-240.png" />
+    <Content Include="Assets\logote.jpg" />
+    <Content Include="Assets\mainlogo.png" />
+    <Content Include="Assets\service.jpg" />
+    <Content Include="Assets\showroom.jpg" />
+    <Content Include="Assets\SmallLogo.scale-240.png" />
+    <Content Include="Assets\Square71x71Logo.scale-240.png" />
+    <Content Include="Assets\startmenu.jpg" />
+    <Content Include="Assets\StoreLogo.scale-240.png" />
+    <Content Include="Assets\two.jpg" />
+    <Content Include="Assets\WideLogo.scale-240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Assets\Cardescription\328i.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\520i.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\740.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\accent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\Adam.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\astra.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\astragtc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\avanza.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\BMW.116i.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\cc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\cerato.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\corolla.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\corsa.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\elantra.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\fortuner.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\golf.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\grandi10.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\i10.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\i30.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\insignia.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\ix35.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\jetta.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\juke.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\landcruiser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\meriva.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\oris.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\passat.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\pathfinder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\picanto.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\polo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\qashqai.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\rio.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\sentra.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\sorento.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\Soul.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\sportage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\sunny.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\tiguan.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\tiida.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\x1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\x3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Cardescription\yaris.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(TargetPlatformIdentifier)' == '' ">
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+  </PropertyGroup>
+  <Import Project="..\CarGuide.Shared\CarGuide.Shared.projitems" Label="Shared" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,56 @@
+﻿<Page
+    x:Class="CarGuide.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CarGuide"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush
+                ImageSource="pic/carformback.jpg"
+                Stretch="Fill"
+                >
+                
+            </ImageBrush>
+        </Grid.Background>
+        <StackPanel Width="500" Height="150" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20">
+            <TextBlock Width="500" Height="150" Text="CARS" TextAlignment="Center" FontSize="100" FontFamily="Imprint MT Shadow" Foreground="Wheat">
+                
+            </TextBlock>
+        </StackPanel>
+        <Grid Width="900" Margin="0,170">
+            <TextBlock Width="300" Height="70" HorizontalAlignment="Left" VerticalAlignment="Top" Text="Brand" FontSize="70" Foreground="WhiteSmoke" FontFamily="Century Schoolbook">
+                
+            </TextBlock>
+            <TextBlock Width="300" Height="70" Margin="0,100" HorizontalAlignment="Left" VerticalAlignment="Top" Text="Model" FontSize="70" Foreground="WhiteSmoke" FontFamily="Century Schoolbook">
+
+            </TextBlock>
+            <ComboBox x:ConnectionId='1' x:Name="wbrand" Width="600" Height="60" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,20"                                           >
+                <ComboBoxItem>BMW</ComboBoxItem>
+                <ComboBoxItem>Toyota</ComboBoxItem>
+                <ComboBoxItem>Opel</ComboBoxItem>
+                <ComboBoxItem>KIA</ComboBoxItem>
+                <ComboBoxItem>Hyndai</ComboBoxItem>
+                <ComboBoxItem>VolexWagen</ComboBoxItem>
+                <ComboBoxItem>Nissan</ComboBoxItem>
+            </ComboBox>
+            <ComboBox x:ConnectionId='2' x:Name="wmodel" Width="600" Height="60" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,120,0,0"                                           >
+                
+            </ComboBox>
+            <Button x:ConnectionId='3' Width="400" Height="70" Margin="0,100,0,0" HorizontalAlignment="Left" Content="Search" FontSize="40" Foreground="Wheat" FontFamily="Papyrus"                       >
+                
+            </Button>
+            <Button x:ConnectionId='4' Width="400" Height="70" Margin="0,100,0,0" HorizontalAlignment="Right" Content="Back" FontSize="40" Foreground="Wheat" FontFamily="Papyrus"                       >
+
+            </Button>
+        </Grid>
+    </Grid>
+
+
+
+</Page>
+

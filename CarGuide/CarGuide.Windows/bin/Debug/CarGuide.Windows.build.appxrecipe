@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>IBRAHIM</Machine>
+    <WindowsUser>Ibrahim</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>30b2e59b-399c-40ec-9a11-6beeb85046c8</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\CarGuide.Windows.exe">
+      <PackagePath>CarGuide.Windows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\pic\bsign.png">
+      <PackagePath>Assets\pic\bsign.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\pic\mainlogo.png">
+      <PackagePath>Assets\pic\mainlogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\pic\sback.png">
+      <PackagePath>Assets\pic\sback.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\pic\StoreLogo.scale-240.png">
+      <PackagePath>Assets\pic\StoreLogo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\backgr.jpg">
+      <PackagePath>Assets\backgr.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\BMW.116i.jpg">
+      <PackagePath>Assets\carpic\BMW.116i.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\BMW.328i.jpg">
+      <PackagePath>Assets\carpic\BMW.328i.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\BMW.520i.jpg">
+      <PackagePath>Assets\carpic\BMW.520i.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\BMW.720.jpg">
+      <PackagePath>Assets\carpic\BMW.720.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\BMW.x1.jpg">
+      <PackagePath>Assets\carpic\BMW.x1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\BMW.x3.jpg">
+      <PackagePath>Assets\carpic\BMW.x3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\ccvolex.jpg">
+      <PackagePath>Assets\carpic\ccvolex.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\hyndai.accent.jpg">
+      <PackagePath>Assets\carpic\hyndai.accent.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\hyndai.elantra.jpg">
+      <PackagePath>Assets\carpic\hyndai.elantra.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\hyndai.grandi10.jpg">
+      <PackagePath>Assets\carpic\hyndai.grandi10.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\hyndai.i10.jpg">
+      <PackagePath>Assets\carpic\hyndai.i10.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\hyndai.i30.jpg">
+      <PackagePath>Assets\carpic\hyndai.i30.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\hyndai.ix35.jpg">
+      <PackagePath>Assets\carpic\hyndai.ix35.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\kia.cerato.jpg">
+      <PackagePath>Assets\carpic\kia.cerato.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\kia.picanto.jpg">
+      <PackagePath>Assets\carpic\kia.picanto.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\kia.rio.jpg">
+      <PackagePath>Assets\carpic\kia.rio.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\kia.sorento.jpg">
+      <PackagePath>Assets\carpic\kia.sorento.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\kia.soul.jpg">
+      <PackagePath>Assets\carpic\kia.soul.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\kia.sportage.jpg">
+      <PackagePath>Assets\carpic\kia.sportage.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\nissan.juke.jpg">
+      <PackagePath>Assets\carpic\nissan.juke.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\nissan.pathfinder.jpg">
+      <PackagePath>Assets\carpic\nissan.pathfinder.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\nissan.qashqai.jpg">
+      <PackagePath>Assets\carpic\nissan.qashqai.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\nissan.sentra.jpg">
+      <PackagePath>Assets\carpic\nissan.sentra.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\nissan.sunny.jpg">
+      <PackagePath>Assets\carpic\nissan.sunny.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\nissan.tiida.jpg">
+      <PackagePath>Assets\carpic\nissan.tiida.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\opel.adam.jpg">
+      <PackagePath>Assets\carpic\opel.adam.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\opel.astra.jpg">
+      <PackagePath>Assets\carpic\opel.astra.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\opel.astragtc.jpg">
+      <PackagePath>Assets\carpic\opel.astragtc.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\opel.insignia.jpg">
+      <PackagePath>Assets\carpic\opel.insignia.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\opel.meriva.jpg">
+      <PackagePath>Assets\carpic\opel.meriva.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\opelcorsa.jpg">
+      <PackagePath>Assets\carpic\opelcorsa.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\toyota.avanza.jpg">
+      <PackagePath>Assets\carpic\toyota.avanza.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\toyota.corlla.jpg">
+      <PackagePath>Assets\carpic\toyota.corlla.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\toyota.fortuner.jpg">
+      <PackagePath>Assets\carpic\toyota.fortuner.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\toyota.landcruiser.jpg">
+      <PackagePath>Assets\carpic\toyota.landcruiser.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\toyota.oris.jpg">
+      <PackagePath>Assets\carpic\toyota.oris.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\toyota.yaris.jpg">
+      <PackagePath>Assets\carpic\toyota.yaris.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\volex.golf.jpg">
+      <PackagePath>Assets\carpic\volex.golf.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\volex.jetta.jpg">
+      <PackagePath>Assets\carpic\volex.jetta.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\volex.passat.jpg">
+      <PackagePath>Assets\carpic\volex.passat.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\volex.polo.jpg">
+      <PackagePath>Assets\carpic\volex.polo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\volex.tiguan.jpg">
+      <PackagePath>Assets\carpic\volex.tiguan.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\pic\backgr.jpg">
+      <PackagePath>Assets\pic\backgr.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\pic\BMW.116i.jpg">
+      <PackagePath>Assets\pic\BMW.116i.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\pic\car.jpg">
+      <PackagePath>Assets\pic\car.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\pic\cardescription.jpg">
+      <PackagePath>Assets\pic\cardescription.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\pic\carformback.jpg">
+      <PackagePath>Assets\pic\carformback.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\pic\guide.jpg">
+      <PackagePath>Assets\pic\guide.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\pic\logote.jpg">
+      <PackagePath>Assets\pic\logote.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\pic\service.jpg">
+      <PackagePath>Assets\pic\service.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\pic\showroom.jpg">
+      <PackagePath>Assets\pic\showroom.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\pic\signback.jpg">
+      <PackagePath>Assets\pic\signback.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\pic\startmenu.jpg">
+      <PackagePath>Assets\pic\startmenu.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\pic\two.jpg">
+      <PackagePath>Assets\pic\two.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\startmenu.jpg">
+      <PackagePath>Assets\startmenu.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\MainPage.xbf">
+      <PackagePath>Assets\MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\Soul.xbf">
+      <PackagePath>Assets\wcars\Soul.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\w116i.xbf">
+      <PackagePath>Assets\wcars\w116i.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\w328i.xbf">
+      <PackagePath>Assets\wcars\w328i.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\w520i.xbf">
+      <PackagePath>Assets\wcars\w520i.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\w740.xbf">
+      <PackagePath>Assets\wcars\w740.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\waccent.xbf">
+      <PackagePath>Assets\wcars\waccent.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wadam.xbf">
+      <PackagePath>Assets\wcars\wadam.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wastra.xbf">
+      <PackagePath>Assets\wcars\wastra.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wastragtc.xbf">
+      <PackagePath>Assets\wcars\wastragtc.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wavanza.xbf">
+      <PackagePath>Assets\wcars\wavanza.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wcc.xbf">
+      <PackagePath>Assets\wcars\wcc.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wcerato.xbf">
+      <PackagePath>Assets\wcars\wcerato.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wcorolla.xbf">
+      <PackagePath>Assets\wcars\wcorolla.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wcorsa.xbf">
+      <PackagePath>Assets\wcars\wcorsa.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\welantra.xbf">
+      <PackagePath>Assets\wcars\welantra.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wfortuner.xbf">
+      <PackagePath>Assets\wcars\wfortuner.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wgolf.xbf">
+      <PackagePath>Assets\wcars\wgolf.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wgrandi10.xbf">
+      <PackagePath>Assets\wcars\wgrandi10.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wi10.xbf">
+      <PackagePath>Assets\wcars\wi10.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wi30.xbf">
+      <PackagePath>Assets\wcars\wi30.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\winsignia.xbf">
+      <PackagePath>Assets\wcars\winsignia.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wix35.xbf">
+      <PackagePath>Assets\wcars\wix35.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wjetta.xbf">
+      <PackagePath>Assets\wcars\wjetta.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wjuke.xbf">
+      <PackagePath>Assets\wcars\wjuke.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wlandcruiser.xbf">
+      <PackagePath>Assets\wcars\wlandcruiser.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wmeriva.xbf">
+      <PackagePath>Assets\wcars\wmeriva.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\woris.xbf">
+      <PackagePath>Assets\wcars\woris.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wpassat.xbf">
+      <PackagePath>Assets\wcars\wpassat.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wpathfinder.xbf">
+      <PackagePath>Assets\wcars\wpathfinder.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wpicanto.xbf">
+      <PackagePath>Assets\wcars\wpicanto.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wpolo.xbf">
+      <PackagePath>Assets\wcars\wpolo.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wqashqai.xbf">
+      <PackagePath>Assets\wcars\wqashqai.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wrio.xbf">
+      <PackagePath>Assets\wcars\wrio.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wsentra.xbf">
+      <PackagePath>Assets\wcars\wsentra.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wsorento.xbf">
+      <PackagePath>Assets\wcars\wsorento.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wsportage.xbf">
+      <PackagePath>Assets\wcars\wsportage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wsunny.xbf">
+      <PackagePath>Assets\wcars\wsunny.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wtiguan.xbf">
+      <PackagePath>Assets\wcars\wtiguan.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wtiida.xbf">
+      <PackagePath>Assets\wcars\wtiida.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wx1.xbf">
+      <PackagePath>Assets\wcars\wx1.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wx3.xbf">
+      <PackagePath>Assets\wcars\wx3.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wyaris.xbf">
+      <PackagePath>Assets\wcars\wyaris.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\CarGuide.Windows.xr.xml">
+      <PackagePath>CarGuide.Windows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

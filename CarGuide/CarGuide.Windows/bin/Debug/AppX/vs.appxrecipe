@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>IBRAHIM</Machine>
+    <WindowsUser>Ibrahim</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>30b2e59b-399c-40ec-9a11-6beeb85046c8</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>BCF29DCE628C018CF8B72A77EDAE0695B58401BF7827E1B6DBBAC7AFA9D1D7CD</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>30b2e59b-399c-40ec-9a11-6beeb85046c8_1.0.0.0_neutral__rzzta0ytw6k5p</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>30b2e59b-399c-40ec-9a11-6beeb85046c8_rzzta0ytw6k5p!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>30b2e59b-399c-40ec-9a11-6beeb85046c8</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Ibrahim</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-04T21:59:55.563</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\CarGuide.Windows.exe">
+      <PackagePath>CarGuide.Windows.exe</PackagePath>
+      <Modified>2015-05-04T21:59:54.781</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-05-04T21:58:20.003</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\pic\bsign.png">
+      <PackagePath>Assets\pic\bsign.png</PackagePath>
+      <Modified>2015-05-03T23:53:24.749</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\pic\mainlogo.png">
+      <PackagePath>Assets\pic\mainlogo.png</PackagePath>
+      <Modified>2015-05-03T20:25:56.806</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\pic\sback.png">
+      <PackagePath>Assets\pic\sback.png</PackagePath>
+      <Modified>2015-05-03T23:46:58.443</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\pic\StoreLogo.scale-240.png">
+      <PackagePath>Assets\pic\StoreLogo.scale-240.png</PackagePath>
+      <Modified>2015-05-03T20:25:56.847</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T17:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T17:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T17:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\backgr.jpg">
+      <PackagePath>Assets\backgr.jpg</PackagePath>
+      <Modified>2015-05-03T19:00:01.917</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\BMW.116i.jpg">
+      <PackagePath>Assets\carpic\BMW.116i.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.220</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\BMW.328i.jpg">
+      <PackagePath>Assets\carpic\BMW.328i.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.243</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\BMW.520i.jpg">
+      <PackagePath>Assets\carpic\BMW.520i.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.266</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\BMW.720.jpg">
+      <PackagePath>Assets\carpic\BMW.720.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.308</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\BMW.x1.jpg">
+      <PackagePath>Assets\carpic\BMW.x1.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.330</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\BMW.x3.jpg">
+      <PackagePath>Assets\carpic\BMW.x3.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.360</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\ccvolex.jpg">
+      <PackagePath>Assets\carpic\ccvolex.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.379</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\hyndai.accent.jpg">
+      <PackagePath>Assets\carpic\hyndai.accent.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.396</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\hyndai.elantra.jpg">
+      <PackagePath>Assets\carpic\hyndai.elantra.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.418</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\hyndai.grandi10.jpg">
+      <PackagePath>Assets\carpic\hyndai.grandi10.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.439</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\hyndai.i10.jpg">
+      <PackagePath>Assets\carpic\hyndai.i10.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.460</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\hyndai.i30.jpg">
+      <PackagePath>Assets\carpic\hyndai.i30.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.476</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\hyndai.ix35.jpg">
+      <PackagePath>Assets\carpic\hyndai.ix35.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.491</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\kia.cerato.jpg">
+      <PackagePath>Assets\carpic\kia.cerato.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.505</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\kia.picanto.jpg">
+      <PackagePath>Assets\carpic\kia.picanto.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.527</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\kia.rio.jpg">
+      <PackagePath>Assets\carpic\kia.rio.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\kia.sorento.jpg">
+      <PackagePath>Assets\carpic\kia.sorento.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.555</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\kia.soul.jpg">
+      <PackagePath>Assets\carpic\kia.soul.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.568</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\kia.sportage.jpg">
+      <PackagePath>Assets\carpic\kia.sportage.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.603</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\nissan.juke.jpg">
+      <PackagePath>Assets\carpic\nissan.juke.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.612</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\nissan.pathfinder.jpg">
+      <PackagePath>Assets\carpic\nissan.pathfinder.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.622</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\nissan.qashqai.jpg">
+      <PackagePath>Assets\carpic\nissan.qashqai.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.636</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\nissan.sentra.jpg">
+      <PackagePath>Assets\carpic\nissan.sentra.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.653</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\nissan.sunny.jpg">
+      <PackagePath>Assets\carpic\nissan.sunny.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.670</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\nissan.tiida.jpg">
+      <PackagePath>Assets\carpic\nissan.tiida.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.679</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\opel.adam.jpg">
+      <PackagePath>Assets\carpic\opel.adam.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.812</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\opel.astra.jpg">
+      <PackagePath>Assets\carpic\opel.astra.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.826</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\opel.astragtc.jpg">
+      <PackagePath>Assets\carpic\opel.astragtc.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.844</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\opel.insignia.jpg">
+      <PackagePath>Assets\carpic\opel.insignia.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.865</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\opel.meriva.jpg">
+      <PackagePath>Assets\carpic\opel.meriva.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.880</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\opelcorsa.jpg">
+      <PackagePath>Assets\carpic\opelcorsa.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.892</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\toyota.avanza.jpg">
+      <PackagePath>Assets\carpic\toyota.avanza.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.911</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\toyota.corlla.jpg">
+      <PackagePath>Assets\carpic\toyota.corlla.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.929</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\toyota.fortuner.jpg">
+      <PackagePath>Assets\carpic\toyota.fortuner.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.946</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\toyota.landcruiser.jpg">
+      <PackagePath>Assets\carpic\toyota.landcruiser.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.959</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\toyota.oris.jpg">
+      <PackagePath>Assets\carpic\toyota.oris.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:09.974</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\toyota.yaris.jpg">
+      <PackagePath>Assets\carpic\toyota.yaris.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:10.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\volex.golf.jpg">
+      <PackagePath>Assets\carpic\volex.golf.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:10.030</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\volex.jetta.jpg">
+      <PackagePath>Assets\carpic\volex.jetta.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:10.040</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\volex.passat.jpg">
+      <PackagePath>Assets\carpic\volex.passat.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:10.059</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\volex.polo.jpg">
+      <PackagePath>Assets\carpic\volex.polo.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:10.077</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\carpic\volex.tiguan.jpg">
+      <PackagePath>Assets\carpic\volex.tiguan.jpg</PackagePath>
+      <Modified>2015-05-03T20:26:10.102</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\pic\backgr.jpg">
+      <PackagePath>Assets\pic\backgr.jpg</PackagePath>
+      <Modified>2015-05-03T20:25:56.682</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\pic\BMW.116i.jpg">
+      <PackagePath>Assets\pic\BMW.116i.jpg</PackagePath>
+      <Modified>2015-05-03T20:25:56.688</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\pic\car.jpg">
+      <PackagePath>Assets\pic\car.jpg</PackagePath>
+      <Modified>2015-05-03T20:25:56.734</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\pic\cardescription.jpg">
+      <PackagePath>Assets\pic\cardescription.jpg</PackagePath>
+      <Modified>2015-05-03T20:25:56.766</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\pic\carformback.jpg">
+      <PackagePath>Assets\pic\carformback.jpg</PackagePath>
+      <Modified>2015-05-03T20:25:56.791</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\pic\guide.jpg">
+      <PackagePath>Assets\pic\guide.jpg</PackagePath>
+      <Modified>2015-05-03T20:25:56.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\pic\logote.jpg">
+      <PackagePath>Assets\pic\logote.jpg</PackagePath>
+      <Modified>2015-05-03T20:25:56.803</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\pic\service.jpg">
+      <PackagePath>Assets\pic\service.jpg</PackagePath>
+      <Modified>2015-05-03T20:25:56.818</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\pic\showroom.jpg">
+      <PackagePath>Assets\pic\showroom.jpg</PackagePath>
+      <Modified>2015-05-03T20:25:56.835</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\pic\signback.jpg">
+      <PackagePath>Assets\pic\signback.jpg</PackagePath>
+      <Modified>2015-05-03T23:35:14.787</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\pic\startmenu.jpg">
+      <PackagePath>Assets\pic\startmenu.jpg</PackagePath>
+      <Modified>2015-05-03T20:25:56.864</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\pic\two.jpg">
+      <PackagePath>Assets\pic\two.jpg</PackagePath>
+      <Modified>2015-05-03T20:25:56.866</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\Assets\startmenu.jpg">
+      <PackagePath>Assets\startmenu.jpg</PackagePath>
+      <Modified>2015-04-25T21:32:54.245</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-04-24T11:48:20.834</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\MainPage.xbf">
+      <PackagePath>Assets\MainPage.xbf</PackagePath>
+      <Modified>2015-05-04T00:09:41.880</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\Soul.xbf">
+      <PackagePath>Assets\wcars\Soul.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:19.889</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\w116i.xbf">
+      <PackagePath>Assets\wcars\w116i.xbf</PackagePath>
+      <Modified>2015-05-04T00:12:09.338</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\w328i.xbf">
+      <PackagePath>Assets\wcars\w328i.xbf</PackagePath>
+      <Modified>2015-05-04T00:31:58.629</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\w520i.xbf">
+      <PackagePath>Assets\wcars\w520i.xbf</PackagePath>
+      <Modified>2015-05-04T00:31:58.645</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\w740.xbf">
+      <PackagePath>Assets\wcars\w740.xbf</PackagePath>
+      <Modified>2015-05-04T00:31:58.660</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\waccent.xbf">
+      <PackagePath>Assets\wcars\waccent.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:19.898</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wadam.xbf">
+      <PackagePath>Assets\wcars\wadam.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:19.908</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wastra.xbf">
+      <PackagePath>Assets\wcars\wastra.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:19.917</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wastragtc.xbf">
+      <PackagePath>Assets\wcars\wastragtc.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:19.923</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wavanza.xbf">
+      <PackagePath>Assets\wcars\wavanza.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:19.930</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wcc.xbf">
+      <PackagePath>Assets\wcars\wcc.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:19.936</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wcerato.xbf">
+      <PackagePath>Assets\wcars\wcerato.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:19.943</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wcorolla.xbf">
+      <PackagePath>Assets\wcars\wcorolla.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:19.950</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wcorsa.xbf">
+      <PackagePath>Assets\wcars\wcorsa.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:19.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\welantra.xbf">
+      <PackagePath>Assets\wcars\welantra.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:19.962</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wfortuner.xbf">
+      <PackagePath>Assets\wcars\wfortuner.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:19.969</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wgolf.xbf">
+      <PackagePath>Assets\wcars\wgolf.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:19.976</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wgrandi10.xbf">
+      <PackagePath>Assets\wcars\wgrandi10.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:19.982</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wi10.xbf">
+      <PackagePath>Assets\wcars\wi10.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:19.989</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wi30.xbf">
+      <PackagePath>Assets\wcars\wi30.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:19.993</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\winsignia.xbf">
+      <PackagePath>Assets\wcars\winsignia.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:19.998</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wix35.xbf">
+      <PackagePath>Assets\wcars\wix35.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:20.002</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wjetta.xbf">
+      <PackagePath>Assets\wcars\wjetta.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:20.009</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wjuke.xbf">
+      <PackagePath>Assets\wcars\wjuke.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:20.014</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wlandcruiser.xbf">
+      <PackagePath>Assets\wcars\wlandcruiser.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:20.018</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wmeriva.xbf">
+      <PackagePath>Assets\wcars\wmeriva.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:20.043</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\woris.xbf">
+      <PackagePath>Assets\wcars\woris.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:20.048</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wpassat.xbf">
+      <PackagePath>Assets\wcars\wpassat.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:20.053</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wpathfinder.xbf">
+      <PackagePath>Assets\wcars\wpathfinder.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:20.058</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wpicanto.xbf">
+      <PackagePath>Assets\wcars\wpicanto.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:20.063</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wpolo.xbf">
+      <PackagePath>Assets\wcars\wpolo.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:20.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wqashqai.xbf">
+      <PackagePath>Assets\wcars\wqashqai.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:20.072</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wrio.xbf">
+      <PackagePath>Assets\wcars\wrio.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:20.076</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wsentra.xbf">
+      <PackagePath>Assets\wcars\wsentra.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:20.080</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wsorento.xbf">
+      <PackagePath>Assets\wcars\wsorento.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:20.085</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wsportage.xbf">
+      <PackagePath>Assets\wcars\wsportage.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:20.089</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wsunny.xbf">
+      <PackagePath>Assets\wcars\wsunny.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:20.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wtiguan.xbf">
+      <PackagePath>Assets\wcars\wtiguan.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:20.114</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wtiida.xbf">
+      <PackagePath>Assets\wcars\wtiida.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:20.121</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wx1.xbf">
+      <PackagePath>Assets\wcars\wx1.xbf</PackagePath>
+      <Modified>2015-05-04T00:31:58.660</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wx3.xbf">
+      <PackagePath>Assets\wcars\wx3.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:20.125</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\Assets\wcars\wyaris.xbf">
+      <PackagePath>Assets\wcars\wyaris.xbf</PackagePath>
+      <Modified>2015-05-04T17:10:20.130</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\CarGuide.Windows.xr.xml">
+      <PackagePath>CarGuide.Windows.xr.xml</PackagePath>
+      <Modified>2015-05-04T17:10:19.050</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ibrahim\documents\visual studio 2013\Projects\CarGuide\CarGuide\CarGuide.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-05-04T21:59:55.141</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{60FCAA1F-9F5F-4607-85E4-8106157FEBAF}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CarGuide</RootNamespace>
+    <AssemblyName>CarGuide.Windows</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+    <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <SynthesizeLinkMetadata>true</SynthesizeLinkMetadata>
+    <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>CarGuide.Windows_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <Folder Include="picture\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\Soul.xaml.cs">
+      <DependentUpon>Soul.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\w116i.xaml.cs">
+      <DependentUpon>w116i.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\w328i.xaml.cs">
+      <DependentUpon>w328i.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\w520i.xaml.cs">
+      <DependentUpon>w520i.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\w740.xaml.cs">
+      <DependentUpon>w740.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\waccent.xaml.cs">
+      <DependentUpon>waccent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\wadam.xaml.cs">
+      <DependentUpon>wadam.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\wastra.xaml.cs">
+      <DependentUpon>wastra.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\wastragtc.xaml.cs">
+      <DependentUpon>wastragtc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\wavanza.xaml.cs">
+      <DependentUpon>wavanza.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\wcc.xaml.cs">
+      <DependentUpon>wcc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\wcerato.xaml.cs">
+      <DependentUpon>wcerato.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\wcorolla.xaml.cs">
+      <DependentUpon>wcorolla.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\wcorsa.xaml.cs">
+      <DependentUpon>wcorsa.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\welantra.xaml.cs">
+      <DependentUpon>welantra.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\wfortuner.xaml.cs">
+      <DependentUpon>wfortuner.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\wgolf.xaml.cs">
+      <DependentUpon>wgolf.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\wgrandi10.xaml.cs">
+      <DependentUpon>wgrandi10.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\wi10.xaml.cs">
+      <DependentUpon>wi10.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\wi30.xaml.cs">
+      <DependentUpon>wi30.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\winsignia.xaml.cs">
+      <DependentUpon>winsignia.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\wix35.xaml.cs">
+      <DependentUpon>wix35.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\wjetta.xaml.cs">
+      <DependentUpon>wjetta.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\wjuke.xaml.cs">
+      <DependentUpon>wjuke.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\wlandcruiser.xaml.cs">
+      <DependentUpon>wlandcruiser.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\wmeriva.xaml.cs">
+      <DependentUpon>wmeriva.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\woris.xaml.cs">
+      <DependentUpon>woris.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\wpassat.xaml.cs">
+      <DependentUpon>wpassat.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\wpathfinder.xaml.cs">
+      <DependentUpon>wpathfinder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\wpicanto.xaml.cs">
+      <DependentUpon>wpicanto.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\wpolo.xaml.cs">
+      <DependentUpon>wpolo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\wqashqai.xaml.cs">
+      <DependentUpon>wqashqai.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\wrio.xaml.cs">
+      <DependentUpon>wrio.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\wsentra.xaml.cs">
+      <DependentUpon>wsentra.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\wsorento.xaml.cs">
+      <DependentUpon>wsorento.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\wsportage.xaml.cs">
+      <DependentUpon>wsportage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\wsunny.xaml.cs">
+      <DependentUpon>wsunny.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\wtiguan.xaml.cs">
+      <DependentUpon>wtiguan.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\wtiida.xaml.cs">
+      <DependentUpon>wtiida.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\wx1.xaml.cs">
+      <DependentUpon>wx1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\wx3.xaml.cs">
+      <DependentUpon>wx3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Assets\wcars\wyaris.xaml.cs">
+      <DependentUpon>wyaris.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Common\NavigationHelper.cs" />
+    <Compile Include="Common\ObservableDictionary.cs" />
+    <Compile Include="Common\RelayCommand.cs" />
+    <Compile Include="Common\SuspensionManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="CarGuide.Windows_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\Logo.scale-100.png" />
+    <Content Include="Assets\backgr.jpg" />
+    <Content Include="Assets\carpic\BMW.116i.jpg" />
+    <Content Include="Assets\carpic\BMW.328i.jpg" />
+    <Content Include="Assets\carpic\BMW.520i.jpg" />
+    <Content Include="Assets\carpic\BMW.720.jpg" />
+    <Content Include="Assets\carpic\BMW.x1.jpg" />
+    <Content Include="Assets\carpic\BMW.x3.jpg" />
+    <Content Include="Assets\carpic\ccvolex.jpg" />
+    <Content Include="Assets\carpic\hyndai.accent.jpg" />
+    <Content Include="Assets\carpic\hyndai.elantra.jpg" />
+    <Content Include="Assets\carpic\hyndai.grandi10.jpg" />
+    <Content Include="Assets\carpic\hyndai.i10.jpg" />
+    <Content Include="Assets\carpic\hyndai.i30.jpg" />
+    <Content Include="Assets\carpic\hyndai.ix35.jpg" />
+    <Content Include="Assets\carpic\kia.cerato.jpg" />
+    <Content Include="Assets\carpic\kia.picanto.jpg" />
+    <Content Include="Assets\carpic\kia.rio.jpg" />
+    <Content Include="Assets\carpic\kia.sorento.jpg" />
+    <Content Include="Assets\carpic\kia.soul.jpg" />
+    <Content Include="Assets\carpic\kia.sportage.jpg" />
+    <Content Include="Assets\carpic\nissan.juke.jpg" />
+    <Content Include="Assets\carpic\nissan.pathfinder.jpg" />
+    <Content Include="Assets\carpic\nissan.qashqai.jpg" />
+    <Content Include="Assets\carpic\nissan.sentra.jpg" />
+    <Content Include="Assets\carpic\nissan.sunny.jpg" />
+    <Content Include="Assets\carpic\nissan.tiida.jpg" />
+    <Content Include="Assets\carpic\opel.adam.jpg" />
+    <Content Include="Assets\carpic\opel.astra.jpg" />
+    <Content Include="Assets\carpic\opel.astragtc.jpg" />
+    <Content Include="Assets\carpic\opel.insignia.jpg" />
+    <Content Include="Assets\carpic\opel.meriva.jpg" />
+    <Content Include="Assets\carpic\opelcorsa.jpg" />
+    <Content Include="Assets\carpic\toyota.avanza.jpg" />
+    <Content Include="Assets\carpic\toyota.corlla.jpg" />
+    <Content Include="Assets\carpic\toyota.fortuner.jpg" />
+    <Content Include="Assets\carpic\toyota.landcruiser.jpg" />
+    <Content Include="Assets\carpic\toyota.oris.jpg" />
+    <Content Include="Assets\carpic\toyota.yaris.jpg" />
+    <Content Include="Assets\carpic\volex.golf.jpg" />
+    <Content Include="Assets\carpic\volex.jetta.jpg" />
+    <Content Include="Assets\carpic\volex.passat.jpg" />
+    <Content Include="Assets\carpic\volex.polo.jpg" />
+    <Content Include="Assets\carpic\volex.tiguan.jpg" />
+    <Content Include="Assets\pic\backgr.jpg" />
+    <Content Include="Assets\pic\BMW.116i.jpg" />
+    <Content Include="Assets\pic\bsign.png" />
+    <Content Include="Assets\pic\car.jpg" />
+    <Content Include="Assets\pic\cardescription.jpg" />
+    <Content Include="Assets\pic\carformback.jpg" />
+    <Content Include="Assets\pic\guide.jpg" />
+    <Content Include="Assets\pic\logote.jpg" />
+    <Content Include="Assets\pic\mainlogo.png" />
+    <Content Include="Assets\pic\sback.png" />
+    <Content Include="Assets\pic\service.jpg" />
+    <Content Include="Assets\pic\showroom.jpg" />
+    <Content Include="Assets\pic\signback.jpg" />
+    <Content Include="Assets\pic\startmenu.jpg" />
+    <Content Include="Assets\pic\StoreLogo.scale-240.png" />
+    <Content Include="Assets\pic\two.jpg" />
+    <Content Include="Assets\SmallLogo.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\startmenu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Assets\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Assets\wcars\Soul.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\w116i.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\w328i.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\w520i.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\w740.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\waccent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\wadam.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\wastra.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\wastragtc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\wavanza.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\wcc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\wcerato.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\wcorolla.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\wcorsa.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\welantra.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\wfortuner.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\wgolf.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\wgrandi10.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\wi10.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\wi30.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\winsignia.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\wix35.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\wjetta.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\wjuke.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\wlandcruiser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\wmeriva.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\woris.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\wpassat.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\wpathfinder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\wpicanto.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\wpolo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\wqashqai.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\wrio.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\wsentra.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\wsorento.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\wsportage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\wsunny.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\wtiguan.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\wtiida.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\wx1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\wx3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\wcars\wyaris.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="..\CarGuide.Shared\CarGuide.Shared.projitems" Label="Shared" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

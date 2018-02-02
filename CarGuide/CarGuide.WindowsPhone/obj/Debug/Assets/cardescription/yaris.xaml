@@ -1,0 +1,51 @@
+﻿<Page
+    x:Class="CarGuide.Assets.Cardescription.yaris"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CarGuide.Assets.Cardescription"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/cardescription.jpg"/>
+        </Grid.Background>
+        <StackPanel Width="300" Height="60" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <TextBlock Height="60" Text="Yaris" TextAlignment="Center" FontSize="50" Foreground="Coral"></TextBlock>
+        </StackPanel>
+        <StackPanel>
+            <Image Width="400" Height="200" Margin="0,85,0,0" Source="ms-appx:///Assets/carpic/Toyota.Yaris.jpg" Stretch="Fill"></Image>
+        </StackPanel>
+
+
+        <Grid Margin="20,300,20,-10">
+            <TextBlock VerticalAlignment="Top" HorizontalAlignment="Left" Width="100" Height="40" Text="Country :" Margin="5,15,10,10" FontSize="20"></TextBlock>
+            <TextBlock VerticalAlignment="Top" HorizontalAlignment="Right" Width="250" Height="40" Text="Japan" Margin="5,15,10,10" TextAlignment="Center" FontSize="20" Foreground="Black"></TextBlock>
+            <TextBlock VerticalAlignment="Top" Margin="0,40,0,0" Text="____________________________________________________________________________" Foreground="BurlyWood"></TextBlock>
+
+            <TextBlock VerticalAlignment="Top" HorizontalAlignment="Left" Width="100" Height="40" Text="Version :" Margin="5,65,10,10" FontSize="20"></TextBlock>
+            <TextBlock VerticalAlignment="Top" HorizontalAlignment="Right" Width="250" Height="40" Text="F/O A/T 1.5" Margin="5,65,10,10" TextAlignment="Center" FontSize="20" Foreground="Black"></TextBlock>
+            <TextBlock VerticalAlignment="Top" Margin="0,90,0,0" Text="____________________________________________________________________________" Foreground="BurlyWood"></TextBlock>
+
+            <TextBlock VerticalAlignment="Top" HorizontalAlignment="Left" Width="100" Height="40" Text="Price :" Margin="5,115,10,10" FontSize="20"></TextBlock>
+            <TextBlock VerticalAlignment="Top" HorizontalAlignment="Right" Width="250" Height="40" Text="144.000" Margin="5,115,10,10" TextAlignment="Center" FontSize="20" Foreground="Black"></TextBlock>
+            <TextBlock VerticalAlignment="Top" Margin="0,140,0,0" Text="____________________________________________________________________________" Foreground="BurlyWood"></TextBlock>
+
+            <TextBlock VerticalAlignment="Top" HorizontalAlignment="Left" Width="100" Height="40" Text="Body :" Margin="5,165,10,10" FontSize="20"></TextBlock>
+            <TextBlock VerticalAlignment="Top" HorizontalAlignment="Right" Width="250" Height="40" Text="Sedan" Margin="5,165,10,10" TextAlignment="Center" FontSize="20" Foreground="Black"></TextBlock>
+            <TextBlock VerticalAlignment="Top" Margin="0,190,0,0" Text="____________________________________________________________________________" Foreground="BurlyWood"></TextBlock>
+
+            <TextBlock VerticalAlignment="Top" HorizontalAlignment="Left" Width="100" Height="40" Text="Cylinders :" Margin="5,215,10,10" FontSize="20"></TextBlock>
+            <TextBlock VerticalAlignment="Top" HorizontalAlignment="Right" Width="250" Height="40" Text="4" Margin="5,215,10,10" TextAlignment="Center" FontSize="20" Foreground="Black"></TextBlock>
+            <TextBlock VerticalAlignment="Top" Margin="0,240,0,0" Text="____________________________________________________________________________" Foreground="BurlyWood"></TextBlock>
+
+            <TextBlock VerticalAlignment="Top" HorizontalAlignment="Left" Width="100" Height="40" Text="Capacity cc:" Margin="5,265,10,10" FontSize="20"></TextBlock>
+            <TextBlock VerticalAlignment="Top" HorizontalAlignment="Right" Width="250" Height="40" Text="1500" Margin="5,265,10,10" TextAlignment="Center" FontSize="20" Foreground="Black"></TextBlock>
+            <TextBlock VerticalAlignment="Top" Margin="0,290,0,0" Text="____________________________________________________________________________" Foreground="BurlyWood"></TextBlock>
+            <Button x:ConnectionId='1' VerticalAlignment="Bottom" HorizontalAlignment="Center" Height="10" Width="400" Content="Back" Foreground="Chocolate"                     ></Button>
+        </Grid>
+    </Grid>
+</Page>
+
